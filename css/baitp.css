@@ -1,0 +1,176 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    height: 850px;
+    width: 1089px;
+}
+
+header {
+    height: 150px;
+    width: 1089px;
+    background-color: chartreuse;
+}
+header>img{
+    box-shadow: 0px 5px 10px #AAA;
+}
+nav {
+    height: 50px;
+    width: 1089px;
+}
+
+.content {
+    height: 500px;
+    width: 1089px;
+}
+
+footer {
+    height: 150px;
+    width: 1089px;
+    color: pink;
+}
+
+#ct1 {
+    height: 500px;
+    width: 724px;
+    background-color: blueviolet;
+    float: left;
+}
+
+#ct2 {
+    height: 500px;
+    width: 362px;
+    background-color: azure;
+    float: left;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.clr {
+    clear: both;
+}
+
+.menu li {
+    display: inline-table;
+    list-style: none;
+    width: 210px;
+    line-height: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.menu li a {
+    text-decoration: solid;
+}
+
+.menu li:hover {
+    background-color: aqua;
+}
+
+li:hover>a {
+    color: yellow;
+    font-weight: bold;
+}
+
+
+
+.login-container {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+  }
+
+  .login-container h1 {
+    font-size: 20px;
+    color: #007bff;
+    text-transform: uppercase;
+  }
+
+  .login-container h2 {
+    font-size: 16px;
+    color: #000;
+  }
+
+  .login-container input[type="text"],
+  .login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+
+  .login-container input[type="checkbox"] {
+    margin-right: 5px;
+    float: right;
+  }
+
+  .captcha {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .captcha img {
+    height: 30px;
+  }
+
+  .captcha input {
+    flex: 1;
+    margin-right: 5px;
+  }
+
+  .login-container button {
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  .login-container button:hover {
+    background-color: #e64a19;
+  }
+
+  .parent-link {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .parent-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  .mobile-app {
+    margin-top: 20px;
+  }
+
+  .mobile-app img {
+    width: 100px;
+    margin: 5px;
+  }
+
+  .instructions {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  
